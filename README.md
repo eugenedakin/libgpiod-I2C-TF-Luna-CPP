@@ -1,5 +1,5 @@
 # libgpiod-I2C-TF-Luna-CPP
-Uses the libgpiod library to get sensor data from the TF-Luna using C++ on the Raspberry Pi and I2C Communication.
+Uses the libgpiod library to get sensor data from the TF-Luna using C++ on the Raspberry Pi and I2C Communication, and using the wxwidgets GUI.
 
 The TF-Luna is a LiDAR (Light Radar) that measures accurate, single-point distance measurement in a small package that is ideal for robotics, and obstacle detection. Attached is code from C++ to retreive and set information on the TF-Luna, the header MDLTFLuna25.h containing library code is specific to the TF-Luna.
 
