@@ -11,7 +11,7 @@ The TF-Luna is a LiDAR (Light Radar) that measures accurate, single-point distan
 4. 	sudo apt install -y libi2c-dev
 5. 	sudo apt install libgpiod-dev
 6. 	make sure TF-Luna is detected at &h10: i2cdetect -y 1
-7. 	Create the TF-Luna example program in a terminal with: ```bash g++ TFLunaCPP27.cpp -o TFLunaCPP27 $(wx-config --cxxflags --libs)
+7. 	Create the TF-Luna example program in a terminal with: g++ TFLunaCPP27.cpp -o TFLunaCPP27 `wx-config --cxxflags --libs``
 8. 	Create the TF-Luna example program in a terminal with: g++ TFLunaCPP27.cpp -o TFLunaCPP27 `wx-config –-cxxflags –-libs`
 9. 	Run the program with: ./TFLunaCPP76.cpp
 
